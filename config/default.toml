@@ -1,0 +1,28 @@
+[system]
+name = "A.R.E.S."
+data_dir = "data"
+database_name = "ares.sqlite3"
+timezone = "local"
+
+[logging]
+level = "INFO"
+file = "ares.log"
+
+[memory]
+conversation_enabled = true
+knowledge_enabled = true
+experience_enabled = true
+skill_enabled = true
+user_context_enabled = true
+retention_days = 365
+
+[security]
+allow_network = false
+allow_shell = false
+allow_file_analysis = true
+allow_autonomous_tasks = false
+
+[limits]
+max_memory_rows = 100000
+request_timeout_seconds = 15
+max_network_requests = 20

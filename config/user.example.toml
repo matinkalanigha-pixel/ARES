@@ -1,0 +1,6 @@
+[paths]
+backup_dir = "data/backups"
+
+[defaults]
+market_asset = ""
+research_topic = ""
